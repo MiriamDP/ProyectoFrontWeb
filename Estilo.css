@@ -1,0 +1,52 @@
+body {
+    background-color: blueviolet;
+    margin: 0px;
+}
+#logoSuperior {
+    height: 10%;
+    width: 10%;
+    position: relative;
+    left: 45%;
+}
+
+#encabezado{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+}
+
+footer{
+    background-color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+#cebollo {
+    height: 5%;
+    width: 5%;
+    position: relative;
+    left: 45%;
+    float:left;
+}
+
+.bi{
+    font-size: 35px;
+}
+
+svg {
+    position: absolute;
+    right: 2.5%;
+    top: 1.5%;
+    height: 4%;
+    width: 4%;
+    padding: 2px;
+}
+
+svg:hover{
+    background-color: rgb(197, 197, 197);
+    border-radius: 25px;
+    padding: 2px;;
+}
