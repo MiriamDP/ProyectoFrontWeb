@@ -28,8 +28,8 @@ footer{
     height: 5%;
     width: 5%;
     position: relative;
-    left: 45%;
-    float:left;
+    left: 2%;
+    display: inline;
 }
 
 .bi{
@@ -47,4 +47,15 @@ svg {
 svg:hover{
     background-color: rgb(197, 197, 197);
     border-radius: 25px;
+}
+
+.redesSociales {
+    border: 2px solid black;
+    height: 5%;
+    width: 5%;
+    float: left;
+}
+
+li {
+    list-style-type: none;
 }
