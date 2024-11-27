@@ -17,36 +17,30 @@ body {
 
 footer{
     background-color: white;
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 10%;
     padding: 10px 0;
 }
 
 #cebollo {
-    height: 5%;
-    width: 5%;
-    position: relative;
-    left: 2%;
-    display: inline;
+    height: 7%;
+    width: 7%;
+    float: left;
 }
 
 .bi{
     font-size: 35px;
 }
 
-svg {
-    position: absolute;
-    right: 2.5%;
-    top: 1.5%;
-    height: 4%;
-    width: 4%; /* Boton queda alargado, quizas mejor opcion meterlo en un div*/
+ul {
+    border: solid 1px green;
+    margin-top: 0px;
 }
-
-svg:hover{
-    background-color: rgb(197, 197, 197);
-    border-radius: 25px;
+li {
+    list-style: none;
 }
 
 .redesSociales {
@@ -56,6 +50,18 @@ svg:hover{
     float: left;
 }
 
-li {
-    list-style-type: none;
+#menu{
+    position: absolute;
+    right: 2.5%;
+    top: 1%;
+    height: 4%;
+    width: 4%;
+    border: none;
+    background:none;
+    cursor: pointer;
+}
+
+#menu svg:hover{
+    background-color: rgb(197, 197, 197);
+    border-radius: 25px;
 }
