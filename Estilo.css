@@ -2,6 +2,8 @@ body {
     background-color: blueviolet;
     margin: 0px;
 }
+
+/*Zona del encabezado*/
 #logoSuperior {
     height: 10%;
     width: 10%;
@@ -25,10 +27,16 @@ footer{
     padding: 10px 0;
 }
 
+#cajaCebollo{
+    width: 150px;
+    position: absolute;
+    left:0;
+}
+
 #cebollo {
-    height: 7%;
-    width: 7%;
-    float: left;
+    height: 5%;
+    width: 5%;
+    transform: rotate(-15deg); /*al darle rotacion hace algo rato con la disposicion de las redes*/
 }
 
 .bi{
@@ -39,6 +47,7 @@ ul {
     border: solid 1px green;
     margin-top: 0px;
 }
+
 li {
     list-style: none;
 }
@@ -46,8 +55,8 @@ li {
 .redesSociales {
     border: 2px solid black;
     height: 5%;
-    width: 5%;
-    float: left;
+    width: 200px;
+    position: relative;
 }
 
 #menu{
@@ -63,4 +72,9 @@ li {
 
 #menu svg:hover{
     background-color: rgb(197, 197, 197);
-    border-radius: 25px;}
+    border-radius: 25px;
+}
+
+#menuDesplegable{
+    display: none;
+}
