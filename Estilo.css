@@ -1,29 +1,14 @@
+
 body {
     background-color: blueviolet;
     margin: 0;
 }
 
 /*Estilo del header*/
-#encabezado{
+#encabezado {
     width: 100%;
     height: 15%;
     background-color: white;
-}
-
-#menu{
-    position: absolute;
-    right: 2.5%;
-    top: 1%;
-    height: 4%;
-    width: 4%;
-    border: none;
-    background:none;
-    cursor: pointer;
-}
-
-#menu svg:hover{
-    background-color: rgb(197, 197, 197);
-    border-radius: 25px;
 }
 
 #logoSuperior {
@@ -31,6 +16,78 @@ body {
     position: relative;
     left: 45%;
     padding-top: 5px;
+}
+
+/* #menu{
+    position: absolute;
+    right: 2.5%;
+    top: 1.75%;
+    width: 3%;
+
+} */
+
+#menu {
+    position: absolute;
+    right: 2.5%;
+    top: 1.75%;
+    width: 3%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#menu svg:hover {
+    background-color: rgb(197, 197, 197);
+    border-radius: 25px;
+}
+
+
+/*Menu de navegacion desplegable*/
+
+
+#menuDesplegable {
+    /* display: none; */
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    box-shadow: 5px blueviolet;
+}
+
+#menuDesplegable ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menuDesplegable ul li {
+    padding: 18px 0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+li a:hover{
+    color: blueviolet;
+    /* background-color: lightgray; */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#paginaSelec{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: default;
 }
 
 /*Contenido*/
@@ -49,13 +106,14 @@ footer {
 }
 
 #cebollo {
-    vertical-align: bottom; /*Quita espacio bajo la foto*/
+    vertical-align: bottom;
+    /*Quita espacio bajo la foto*/
     transform: rotate(-15deg);
-    width:85px;
+    width: 85px;
     margin-right: 10px;
 }
 
-#redesSociales{
+#redesSociales {
     width: 175px;
     border-left: 3px blueviolet solid;
     display: inline-block;
@@ -63,7 +121,7 @@ footer {
     bottom: 8px;
 }
 
-#redesSociales a{
+#redesSociales a {
     padding-left: 20px;
 }
 
@@ -71,5 +129,3 @@ footer {
     text-align: center;
     color: blueviolet;
 }
-
-
