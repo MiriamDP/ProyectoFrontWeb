@@ -1,62 +1,13 @@
 body {
     background-color: blueviolet;
-    margin: 0px;
+    margin: 0;
 }
 
-/*Zona del encabezado*/
-#logoSuperior {
-    height: 10%;
-    width: 10%;
-    position: relative;
-    left: 45%;
-}
-
+/*Estilo del header*/
 #encabezado{
     width: 100%;
     height: 15%;
     background-color: white;
-}
-
-footer{
-    background-color: white;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 10%;
-    padding: 10px 0;
-}
-
-#cajaCebollo{
-    width: 150px;
-    position: absolute;
-    left:0;
-}
-
-#cebollo {
-    height: 5%;
-    width: 5%;
-    transform: rotate(-15deg); /*al darle rotacion hace algo rato con la disposicion de las redes*/
-}
-
-.bi{
-    font-size: 35px;
-}
-
-ul {
-    border: solid 1px green;
-    margin-top: 0px;
-}
-
-li {
-    list-style: none;
-}
-
-.redesSociales {
-    border: 2px solid black;
-    height: 5%;
-    width: 200px;
-    position: relative;
 }
 
 #menu{
@@ -75,6 +26,50 @@ li {
     border-radius: 25px;
 }
 
-#menuDesplegable{
-    display: none;
+#logoSuperior {
+    width: 12%;
+    position: relative;
+    left: 45%;
+    padding-top: 5px;
 }
+
+/*Contenido*/
+#contenido {
+    height: 75%;
+    background-color: brown;
+}
+
+/*Pie de pagina*/
+footer {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#cebollo {
+    vertical-align: bottom; /*Quita espacio bajo la foto*/
+    transform: rotate(-15deg);
+    width:85px;
+    margin-right: 10px;
+}
+
+#redesSociales{
+    width: 175px;
+    border-left: 3px blueviolet solid;
+    display: inline-block;
+    position: relative;
+    bottom: 8px;
+}
+
+#redesSociales a{
+    padding-left: 20px;
+}
+
+#redesSociales p {
+    text-align: center;
+    color: blueviolet;
+}
+
+
