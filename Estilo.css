@@ -18,39 +18,63 @@ body {
     padding-top: 5px;
 }
 
-/* #menu{
-    position: absolute;
-    right: 2.5%;
-    top: 1.75%;
-    width: 3%;
+/*Menu de navegacion desplegable*/
 
-} */
-
-#menu {
-    position: absolute;
-    right: 2.5%;
-    top: 1.75%;
-    width: 3%;
-    border: none;
-    background: none;
-    cursor: pointer;
+#desplegable{
+    min-width: 100px;
+    position: relative;
+    left: 85%;
 }
 
-#menu svg:hover {
+#menuBoton {
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+#menuBoton svg {
+    width: 20%;
+}
+
+#menuBoton svg:hover {
     background-color: rgb(197, 197, 197);
     border-radius: 25px;
 }
+
+#desplegable:hover #menuDesplegable{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Menu de navegacion desplegable*/
 
 
 #menuDesplegable {
-    /* display: none; */
+    display: none;
     width: 200px;
     background-color: white;
     position: absolute;
-    box-shadow: 5px blueviolet;
+    /* box-shadow:0 0 0 5px rgb(43, 183, 226); No funciona muy alla */
 }
 
 #menuDesplegable ul {
@@ -63,7 +87,7 @@ body {
     text-align: center;
 }
 
-a{
+li a{
     text-decoration: none;
     color: black;
     
@@ -129,3 +153,4 @@ footer {
     text-align: center;
     color: blueviolet;
 }
+
