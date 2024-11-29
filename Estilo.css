@@ -12,7 +12,6 @@ body {
 }
 
 #logoSuperior {
-    width: 12%;
     position: relative;
     left: 45%;
     padding-top: 5px;
@@ -23,8 +22,10 @@ body {
 #desplegable{
     width: 65px;
     position: relative;
-    left: 95%;
+    left: 95.8%;
     padding-right: 1.65% ;
+    height: 0; /* Para quitar la altura heredada del encabezado */
+    bottom: 75px;
 }
 
 #menuBoton {
@@ -72,10 +73,11 @@ body {
 
 #menuDesplegable {
     display: none;
-    width: 200px;
+    width: 350px;
     background-color: white;
     position: absolute;
     right: 0;
+    font-size: 30px;
     /* box-shadow:0 0 0 5px rgb(43, 183, 226); No funciona muy alla */
 }
 
@@ -87,12 +89,13 @@ body {
 #menuDesplegable ul li {
     padding: 18px 0;
     text-align: center;
+    margin: 25px 18px;
 }
 
 li a{
     text-decoration: none;
     color: black;
-    
+    padding: 15px 0 15px 0;
     font-family: "DynaPuff", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -113,7 +116,6 @@ li a:hover{
     background-color: black;
     padding: 10px;
     border-radius: 5px;
-    cursor: default;
 }
 
 
@@ -154,10 +156,16 @@ footer {
     position: fixed;
     left: 0;
     bottom: 0;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
 }
 
 #cebollo {
     vertical-align: bottom;
+    padding: 10px 0;
     /*Quita espacio bajo la foto*/
     transform: rotate(-15deg);
     width: 85px;
@@ -165,7 +173,7 @@ footer {
 }
 
 #redesSociales {
-    width: 175px;
+    width: 195px;
     border-left: 3px blueviolet solid;
     display: inline-block;
     position: relative;
@@ -177,7 +185,13 @@ footer {
 }
 
 #redesSociales p {
+    margin-top: 0;
+    font-size: 20px;
     text-align: center;
     color: blueviolet;
+}
+
+a img {
+    width: 25px;
 }
 
