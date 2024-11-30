@@ -40,3 +40,47 @@ article h1 {
     margin-bottom: 2.5%;
     text-align: center;
 }
+
+article img {
+    margin: 0.5% 2.5%;
+    border-radius: 5px;
+}
+
+#miriam {
+    width: 150px;
+    float: left
+}
+
+#cristian{
+    width: 150px;
+    height: 200px;
+    float: right;
+}
+
+h2, h3 {
+    color: white;
+}
+
+
+.fundadores {
+    padding: 1px; /*para que todo este ajustado*/
+    margin: 2.5%;
+    text-align: justify;
+}
+
+
+#cristianTag {
+    text-align: right;
+}
+
+.fundadores p {
+    padding-right: 30px ;
+    padding-left: 25px;
+}
+
+.colaborador {
+    margin:0 2.5%;
+    width: 44%;
+    display: inline-block;
+    text-align: center;
+}
