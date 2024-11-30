@@ -1,42 +1,110 @@
-<form> <!--Formulario para trabaja con nosotros-->
-    <label for="nombre">Nombre: </label>
-    <input type="text" id="nombre" name="nombre">
-    <label for="apellido1">Primer apellido: </label>
-    <input type="text" id="apellido1" name="apellido1">
-    <label for="apellido2">Segundo apellido: </label>
-    <input type="text" id="apellido2" name="apellido2">
+<!DOCTYPE html>
+<html lang="es">
 
-    <p>Selecciona el departamento al que quieres aplicar</p>
-    <input type="radio" id="programacion" name="departamento" value="programacion">
-    <label for="programacion">Programacion</label>
-    <input type="radio" id="arte" name="departamento" value="arte">
-    <label for="arte">Arte</label>
-    <input type="radio" id="publicidad" name="departamento" value="publicidad">
-    <label for="publicidad">Publicidad</label>
-    <input type="radio" id="sonido" name="departamento" value="sonido">
-    <label for="sonido">Sonido</label>
-    <input type="radio" id="diseno" name="departamento" value="diseno">
-    <label for="diseno">Diseño</label>
-    
-    <br>
+<head>
+    <meta charset="UTF-8">
+    <title>Scalions Studios-General</title>
+    <link rel="stylesheet" type="text/CSS" href="Estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link rel="shorcut icon" href="Imagenes/favicon.ico" type="image/x-icon">
+    <!--Añadido tipografia DynaPuff-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+</head>
 
-    <label for="email">Introduce tu email de contacto</label>
-    <input type="email" id="email" name="email">
-    <label for="curriculum">Añade tu curriculum y/o portfolio. Si vas a añadir más de un fichero añade un fichero comprimido</label>
-    <input type="file" id="curriculum" name="curriculum">
+<body>
+    <!--Encabezado-->
+    <header id="encabezado">
+        <img src="Imagenes/ScalionsSmallNB.png" alt="Scalions Studios" id="logoSuperior">
 
-</form>
+        <div id="desplegable">
+
+            <button id="menuBoton">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </button>
+
+            <div id="menuDesplegable">
+                <ul>
+                    <li><a href="General.html" id="paginaSelec">Inicio</a></li>
+                    <li><a href="Juegos.html">Nuestros juegos</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Tienda.html">Tienda</a></li>
+                    <li><a href="Contacto.html">Contactanos</a></li>
+                    <li><a href="Profesor.html">Para el profesor</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
 
 
-<form> <!--Formulario de publishing-->
-    <!--Dar opciones si se quiere publicar con nosotros/ eres inversor? pues comete una mierda /eres publisher y quieres publicar nuestros juegos? comete una mierda/ quieres colobaorar con nosotros-->
-    <!--En funcion de lo que se elija sale un formulario u otro-->
-</form>
 
-<form> <!--Conactanos-->
-    <p>Aqui puedes reportarnos algun error que te hayas encontrado o simplemente cualquier cosa que nos quieras comentar de los mismo</p>
-    <label for="name">Tu nombre</label>
-    <input type="text" id="name" name="name">
-    
+    <!--Contenido-->
+    <div id="contenido">
+        <p>Añadir barra de navegacion igual que en el caso de la tienda</p>
+        <!--Video-->
 
-</form>
+        <form> <!--Formulario para trabaja con nosotros-->
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre">
+            <label for="apellido1">Primer apellido: </label>
+            <input type="text" id="apellido1" name="apellido1">
+            <label for="apellido2">Segundo apellido: </label>
+            <input type="text" id="apellido2" name="apellido2">
+        
+            <p>Selecciona el departamento al que quieres aplicar</p>
+            <input type="radio" id="programacion" name="departamento" value="programacion">
+            <label for="programacion">Programacion</label>
+            <input type="radio" id="arte" name="departamento" value="arte">
+            <label for="arte">Arte</label>
+            <input type="radio" id="publicidad" name="departamento" value="publicidad">
+            <label for="publicidad">Publicidad</label>
+            <input type="radio" id="sonido" name="departamento" value="sonido">
+            <label for="sonido">Sonido</label>
+            <input type="radio" id="diseno" name="departamento" value="diseno">
+            <label for="diseno">Diseño</label>
+            
+            <br>
+        
+            <label for="email">Introduce tu email de contacto</label>
+            <input type="email" id="email" name="email">
+            <label for="curriculum">Añade tu curriculum y/o portfolio. Si vas a añadir más de un fichero añade un fichero comprimido</label>
+            <input type="file" id="curriculum" name="curriculum">
+        
+        </form>
+        
+        
+        <form> <!--Formulario de publishing-->
+            <!--Dar opciones si se quiere publicar con nosotros/ eres inversor? pues comete una mierda /eres publisher y quieres publicar nuestros juegos? comete una mierda/ quieres colobaorar con nosotros-->
+            <!--En funcion de lo que se elija sale un formulario u otro-->
+        </form>
+        
+        <form> <!--Conactanos-->
+            <p>Aqui puedes reportarnos algun error que te hayas encontrado o simplemente cualquier cosa que nos quieras comentar de los mismo</p>
+            <label for="name">Tu nombre</label>
+            <input type="text" id="name" name="name">
+            
+        
+        </form>
+    </div>
+
+    <!--Pie de pagina-->
+    <footer>
+        <img src="Imagenes/CebolloFooter.png" alt="logo" id="cebollo">
+        <div id="redesSociales">
+            <p>Siguenos</p>
+            <a href="https://www.instagram.com/scalionstudios/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_blank"><img
+                    src="Imagenes/instagram.svg" alt="Instagram"></a>
+            <a href="https://x.com/scalionss" target="_blank"><img src="Imagenes/discord.svg" alt="Discord"></a>
+            <a href="https://x.com/scalionss" target="_blank"><img src="Imagenes/twitter-x.svg" alt="Facebook"></a>
+            <a href="https://es.linkedin.com/company/scalions-studios" target="_blank"><img src="Imagenes/linkedin.svg"
+                    alt="LinkedIn"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

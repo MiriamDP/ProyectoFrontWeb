@@ -1,0 +1,42 @@
+/*Para la pagina nosotros*/
+section {
+    width: 80%;
+    margin: auto;
+}
+
+article {
+    margin: 2.5% 0 4% 0;
+    border: dotted 1px white;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.3);
+    box-shadow: 0 0 30px white;
+    font-family: "Manjari", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+article h1 {
+    width: 19%;
+    text-align: center;
+    border: 1px solid white;
+    color:black;
+    border-radius: 5px;
+    background-color: white;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 25px;
+    padding: 0.3% 0;
+    position: relative;
+    left: 40%;
+    box-shadow: 0 0 20px rgb(105, 20, 185);
+}
+
+#estudio {
+    margin: 0 5%;
+    margin-bottom: 2.5%;
+    text-align: center;
+}
