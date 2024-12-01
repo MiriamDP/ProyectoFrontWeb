@@ -29,7 +29,41 @@ fieldset input {
 }
 
 fieldset label {
-    margin: 10px;
+    margin: 10px 0;
+}
+div {
+    position: relative;
+    left: 40%;
+    width: 250px;
+}
+#envio, #reset {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 25px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
 }
 
+#envio:hover, #reset:hover {
+    cursor: pointer;
+}
 
+#simpsons {
+    width: 100%;
+    height: 60%;
+}
+
+#declaracion {
+    font-family: "Manjari", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2.5%;
+    border-radius: 10px;
+}

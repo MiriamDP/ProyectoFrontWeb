@@ -123,7 +123,7 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    padding: 0 30%;
+    padding: 2% 25%;
 }
 
 nav ul li a:hover {
@@ -135,9 +135,9 @@ nav ul li:hover {
 
 }
 
-iframe{
+#formularios{
     width: 80%;
-    height: 700px;
+    height: 750px;
     margin-left: 10%;
     margin-top: 2.5%;
 }
