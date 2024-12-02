@@ -51,28 +51,7 @@ iframe {
     margin-left: 25%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Menu de navegacion desplegable*/
-
 
 #menuDesplegable {
     display: none;
@@ -120,31 +99,6 @@ li a:hover{
     padding: 10px;
     border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Contenido*/
 #contenido {
