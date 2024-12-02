@@ -5,8 +5,46 @@
 <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
 
+<h1 id="titulo">Reportes y sugerencias</h1>
+
 <form> <!--Conactanos-->
-    <p>Aqui puedes reportarnos algun error que te hayas encontrado o simplemente cualquier cosa que nos quieras comentar de los mismo</p>
-    <label for="name">Tu nombre</label>
-    <input type="text" id="name" name="name">
+    <fieldset>
+        <legend>Reportes y sugerencias</legend>
+        <label for="name">Introduce tu nombre o nickname*</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="correo">Correo electronico*</label>
+        <input type="email" id="correo" name="correo" required><br>
+
+        <legend>¿Deseas reportarnos un error o comentarnos alguna sugerencia?</legend>
+        <label for="reportes">¿Deseas reportarnos un error o comentarnos alguna sugerencia?</label>
+        <input type="radio" id="reporte" name="reportes" value="reporte" required>
+        <label for="programacion">Reportar error</label>
+        <input type="radio" id="sugerencia" name="departamento" value="sugerencia" required>
+        <label for="arte">Sugerencia</label><br>
+
+        <label for="juegos">Sobre que juego/s</label>
+        <input type="checkbox" id="doors" name="doors" value="DoorsAndLoot">
+        <label for="doors">Doors & Loot</label>
+        <input type="checkbox" id="alchemist" name="alchemist" value="AlchemistOfNafiljar">
+        <label for="alchemist">The Alchemist Of Nafiljar</label>
+        <input type="checkbox" id="otro" name="otro" value="otro">
+        <label for="otro">Otro</label><br>
+
+        <label>Cuentanos*</label><br>
+        <textarea name="report" rows="5" cols="60" required></textarea>
+
+        <fieldset>
+            <legend>Informacion extra</legend>
+            <label for="redes">Si tienes algun enlace donde podamos ver el fallo dejanoslo por aqui </label>
+            <input type="url" id="redes" name="redes">
+            <br>
+            <label for="curriculum">Si tienes capturas o videos del fallo, tambien puedes enlazarnoslo aqui</label>
+            <input type="file" id="curriculum" name="curriculum" multiple>
+        </fieldset>
+    </fieldset>
+    
+    <div>
+        <input type="submit" value="Enviar" id="envio">
+        <input type="reset" value="Resetear" id="reset">
+    </div>
 </form>

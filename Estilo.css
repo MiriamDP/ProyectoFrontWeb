@@ -75,7 +75,7 @@ iframe {
 
 
 #menuDesplegable {
-    /* display: none; */
+    display: none;
     width: 350px;
     background-color: white;
     position: absolute;

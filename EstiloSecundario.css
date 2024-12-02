@@ -137,8 +137,9 @@ nav ul li:hover {
 
 #formularios{
     width: 80%;
-    height: 750px;
+    height: 850px;
     margin-left: 10%;
     margin-top: 2.5%;
+    border:none;
 }
 
