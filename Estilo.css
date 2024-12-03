@@ -21,11 +21,14 @@ body {
 
 #desplegable{
     width: 65px;
-    position: relative;
-    left: 95.8%;
-    padding-right: 1.65% ;
+    /* position: relative;
+    left: 96.1%;
+    bottom: 75px; */
     height: 0; /* Para quitar la altura heredada del encabezado */
-    bottom: 75px;
+
+    /*Mejor opcion que el relative para posicionarlo a la derecha*/
+    float: right;
+    margin-top: 25px;
 }
 
 #menuBoton {
@@ -60,6 +63,7 @@ iframe {
     position: absolute;
     right: 0;
     font-size: 185%; /*30px*/
+    margin-top: 11px; /*Añadido para bajar el menu desplegable y alinearlo al header*/
     /* box-shadow:0 0 0 5px rgb(43, 183, 226); No funciona muy alla */
 }
 
