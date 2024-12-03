@@ -9,6 +9,7 @@ form {
 }
 
 h1 {
+    font-size: 20px;
     box-shadow: 0 0 30px rgb(44, 4, 82);
 }
 
@@ -72,7 +73,7 @@ textarea {
     margin-bottom: 1.5%;
 }
 
-#titulo {
+#titulo { /*Este encabezado en concreto sin este id no pilla bien el css a aplicar a diferencia de los otros h1 de esta misma pagina*/
     margin-top: 2%;
     box-shadow: none;
     box-shadow: 0 0 20px rgb(39, 8, 68);

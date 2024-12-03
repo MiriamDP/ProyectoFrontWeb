@@ -6,7 +6,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
@@ -41,8 +41,33 @@ nav ul li:hover {
 
 }
 
-iframe{
+iframe {
     width: 100%;
-    height: 850px;
+    height: 700px;
     margin-left: 0;
+    border: none;
 }
+
+/*Para la tienda juegos*/
+#juegos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#juegos a img {
+    width: 70%;
+}
+
+#juegos a img:hover{
+    box-shadow: 0 0 30px white;
+}
+
+#juegos div {
+    text-align: center;
+    margin-top: 1.5%;
+}
+
+/*Para el merch*/

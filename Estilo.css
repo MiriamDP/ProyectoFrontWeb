@@ -39,6 +39,7 @@ body {
 
 #menuBoton svg {
     width: 100%;
+    margin-bottom: 11px; /*Para ajustar el desplegable y alinearlo al header*/
 }
 
 #menuBoton svg:hover {
@@ -63,8 +64,6 @@ iframe {
     position: absolute;
     right: 0;
     font-size: 185%; /*30px*/
-    margin-top: 11px; /*Añadido para bajar el menu desplegable y alinearlo al header*/
-    /* box-shadow:0 0 0 5px rgb(43, 183, 226); No funciona muy alla */
 }
 
 #menuDesplegable ul {
