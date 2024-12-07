@@ -213,7 +213,7 @@ fieldset {
     border-radius: 5px;
 }
 
-#envio, #reset, button {
+#envio, #reset, .botonEnlace {
     font-family: "DynaPuff", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -240,22 +240,21 @@ label, input {
     color: blueviolet;
 }
 
-button {
+.botonEnlace {
     padding: 10px;
-    position: relative;
 }
 
-button a{
+.botonEnlace a{
     text-decoration: none;
     color: black;
 }
 
-button:hover{
+.botonEnlace:hover{
     text-decoration: none;
     box-shadow: 0 0 20px blueviolet;
 }
 
-button a:hover {
+.botonEnlace a:hover {
     color: blueviolet;
 }
 
