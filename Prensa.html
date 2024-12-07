@@ -6,6 +6,7 @@
     <title>Scalions Studios-General</title>
     <link rel="stylesheet" type="text/CSS" href="Estilo.css">
     <link rel="stylesheet" type="text/CSS" href="PrensaEstilo.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
         integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
     <link rel="shorcut icon" href="Imagenes/favicon.ico" type="image/x-icon">
@@ -49,10 +50,10 @@
     <!--Contenido-->
     <nav>
         <ul>
-            <li><a href="#entrevistas">Entrevistas</a></li>
-            <li><a href="#articulos">Articulos</a></li>
-            <li><a href="#cont_pres">Contacto y presskit</a></li>
             <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#entrevistas">Entrevistas</a></li>
+            <li><a href="#reviews">Reseñas</a></li>
+            <li><a href="#cont_pres">Contacto y presskit</a></li>
         </ul>
     </nav>
     <div id="prensa">
@@ -82,21 +83,93 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="djpanchi"></iframe>
-                    <p>En esta ocasion nos entrevisto DJPanchi en su podcast "Tu, yo y el indie". Donde contamos como ha sido nuestro proceso de creación del juego, de donde surgió la idea. Tambien charlamos sobre nuestras influencias</p>
+                    <p>En esta ocasion nos entrevisto DJPanchi en su podcast "Tu, yo y el indie". Donde contamos como ha
+                        sido nuestro proceso de creación del juego, de donde surgió la idea. Tambien charlamos sobre
+                        nuestras influencias</p>
                 </div>
                 <div class="interview">
-                    <a href=""><img src="Imagenes/All-ages-of-geek-home.png"></a>
-                    <p>En esta ocasion nos entrevisto DJPanchi en su podcast "Tu, yo y el indie". Donde contamos como ha sido nuestro proceso de creación del juego, de donde surgió la idea. Tambien charlamos sobre nuestras influencias</p>
+                    <a href="https://allagesofgeek.com/we-interviewd-scalions-studios/" target="_blank"><img
+                            src="Imagenes/All-ages-of-geek-home.png" alt="logo All Ages of Geek"></a>
+                    <p>Aquí fuimos entrevistados por la pagina de inglesa All Ages of Geek con motivo del lanzamiento de
+                        Doors And Loot, sobre nuestras influencias y modo de desarrollo</p>
+                </div>
+                <div class="interview">
+                    <a href="https://akihabarablues.com/10-preguntas-a-scalions-studios/" target="_blank"><img
+                            src="https://akihabarablues.b-cdn.net/wp-content/uploads/2016/09/logo.png"
+                            alt="logo Akihabra Blues"></a>
+                    <p>Tuvimos el placer de ser entrevistados por el blog español Akihabara Blues.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="seccion" id="reviews">
+            <h1>Reseñas</h1>
+            <div id="review_flex">
+                <div class="articulo">
+                    <a href="https://www.indie-games.eu/en/doors-amp-loot-review/" target="_blank"><img
+                            src="Imagenes/logo-ig3.png" alt="logo Indie Games"></a>
+                    <p>Reseña de Doors & Loot en la página de habla inglesa Indie Games</p>
+                </div>
+                <div class="articulo">
+                    <a href="https://www.devuego.es/blog/2024/06/12/doors-loot-eso-es-todo-lo-que-necesitas/"
+                        target="_blank"><img src="Imagenes/cropped-logodevuegoblogazulgrande.jpg"
+                            alt="logo Devuego"></a>
+                    <p>Reseña de Doors & Loot en el blog español DeVuego</p>
+                </div>
+                <div class="articulo">
+                    <a href="https://youtu.be/t0UEWZ_RuM0?si=rhEQOKtpfxvDB0rR&t=680" target="_blank"
+                        class="enlaceTexto">
+                        <p>Pazos64</p>
+                    </a>
+                    <p>Reseña de Doors & Loot que nos hizo Pazos64 y nos hizo mucha ilusión</p>
                 </div>
             </div>
         </div>
-        <div class="seccion" id="articulos">
-            <h1>Articulos</h1>
-            Link articulos, nombre, titular
-        </div>
         <div class="seccion" id="cont_pres">
             <h1>Contacto y presskit</h1>
-            <div>Formulario</div>
+            <div id="press_flex">
+                <a href="https://drive.google.com/drive/folders/1P_KA0MnCOemXXtUWIyuqshh32KwmBiyY?usp=drive_link"
+                    id="presskit" target="_blank" class="press">
+                    <p>Nuestro Presskit</p>
+                </a>
+                <form class="press" id="formulario">
+                    <fieldset>
+                        <legend>Contacto prensa</legend>
+                        <p>Si quires hacernos una entrevista o reseñas nuestro juego contactanos aquí</p>
+                        <label for="nombre">Nombre*: </label>
+                        <input type="text" id="nombre" name="nombre" required><br>
+                        <label for="apellido1">Primer apellido*: </label>
+                        <input type="text" id="apellido1" name="apellido1" required><br>
+                        <label for="apellido2">Segundo apellido: </label>
+                        <input type="text" id="apellido2" name="apellido2"><br>
+                        <label for="correo">Correo electronico*</label>
+                        <input type="email" id="correo" name="correo" required><br>
+                        <label for="medio">Nombre de la revista, blog, canal... </label>
+                        <input type="text" id="medio" name="medio"><br>
+                        <label for="enlaceMedio">Deja aqui una url de la revista, blog, canal...</label>
+                        <input type="url" id="enlaceMedio" name="enlaceMedio"><br>
+                        <label for="motivo">Motivo de contacto</label>
+                        <input type="radio" id="review" name="motivo" value="review" required>
+                        <label for="review">Reseña</label>
+                        <input type="radio" id="entrevista" name="motivo" value="entrevista" required>
+                        <label for="entrevista">Entrevista</label><br>
+
+                        <label>Cuentanos brevemente en que consistiria</label><br>
+                        <textarea name="favorito" rows="5" cols="60" required></textarea><br>
+
+                        <label for="copia">¿Necesitas copia del juego?</label>
+                        <input type="radio" id="si" name="copia" value="si" required>
+                        <label for="si">Sí</label>
+                        <input type="radio" id="no" name="copia" value="no" required>
+                        <label for="no">No</label>
+                    </fieldset>
+                    <div>
+                        <input type="submit" value="Enviar" id="envio">
+                        <input type="reset" value="Resetear" id="reset">
+                    </div>
+
+                </form>
+            </div>
         </div>
     </div>
 
