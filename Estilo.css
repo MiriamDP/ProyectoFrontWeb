@@ -104,9 +104,27 @@ li a:hover{
 }
 
 /*Contenido*/
-#contenido {
-    height: 75%;
-    background-color: brown;
+#contenido p{
+    width: 22.5%;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    left: 37%;
+}
+
+#video {
+    width: 60%;
+    margin: auto;
+}
+video{
+    width: 100%;
 }
 
 /*Pie de pagina*/
