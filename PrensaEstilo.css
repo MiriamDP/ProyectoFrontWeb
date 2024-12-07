@@ -143,6 +143,9 @@ p, legend,label {
     box-shadow:0 0 20px white;
     border: 1px white dotted;
     border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
 
 .articulo img {
@@ -154,7 +157,7 @@ p, legend,label {
     text-decoration: none;
 }
 
-a p {
+a p, .reviewTexto {
     width: 100%;
     height: 65px;
     font-family: "DynaPuff", system-ui;
@@ -168,7 +171,10 @@ a p {
     background-color: white;
     padding-top: 5px;
     border-radius: 5px;
+    margin-bottom: 10px;
+
 }
+
 a p:hover{
     box-shadow: 0 0 25px blueviolet;
 }
@@ -179,9 +185,6 @@ a p:hover{
 
 #presskit {
     text-decoration: none;
-}
-
-#presskit p {
 }
 
 #press_flex {
@@ -210,7 +213,7 @@ fieldset {
     border-radius: 5px;
 }
 
-#envio, #reset {
+#envio, #reset, button {
     font-family: "DynaPuff", system-ui;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -221,6 +224,11 @@ fieldset {
     background-color: white;
     border: none;
     border-radius: 10px;
+    text-align: center;
+}
+
+#envio:hover, #reset:hover {
+    color:blueviolet;
 }
 
 label, input {
@@ -229,5 +237,26 @@ label, input {
 
 #sombra:hover{
     box-shadow: 0 0 25px white;
-
+    color: blueviolet;
 }
+
+button {
+    padding: 10px;
+    position: relative;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    text-decoration: none;
+    box-shadow: 0 0 20px blueviolet;
+}
+
+button a:hover {
+    color: blueviolet;
+}
+
+
