@@ -72,7 +72,7 @@ p {
     font-size: 20px;
 }
 
-.primerParrafo{
+.seccion > p {
     text-align: center;
     color: white;
 }
@@ -82,4 +82,35 @@ p {
     background-color: rgba(255, 255, 255, 0.5);
     padding: 1%;
     border-radius: 5px;
+}
+
+
+#entrevista_flex{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.interview{
+    padding: 1%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin: 1% 0;
+    
+}
+
+.interview p{
+    margin-top: 7.5%;
+}
+
+.interview img+has(#djpanchi) {
+
+}
+
+#djpanchi{
+    padding:0 2.5%;
+    width: 560px;
+    height: 315px;
+    margin-left: 0;
+    float:left;
 }
