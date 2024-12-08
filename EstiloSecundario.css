@@ -16,8 +16,7 @@ article {
     font-size: 20px;
 }
 
-h1,
-article h1 {
+h1, article h1 {
     width: 19%;
     text-align: center;
     border: 1px solid white;
@@ -63,14 +62,12 @@ h3 {
     color: white;
 }
 
-
 .fundadores {
     padding: 1px;
     /*para que todo este ajustado*/
     margin: 2.5%;
     text-align: justify;
 }
-
 
 #cristianTag {
     text-align: right;
@@ -92,10 +89,7 @@ h3 {
     margin-bottom: 100px;
 }
 
-
-
 /*Contacto*/
-
 
 nav {
     width: 100%;
