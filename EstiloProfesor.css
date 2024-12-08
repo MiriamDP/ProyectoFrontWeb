@@ -1,0 +1,75 @@
+#fondo {
+    background-color: white;
+    background:url(Imagenes/luxa.org-opacity-changed-CebolloFondo.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 5%;
+    background-attachment: fixed;
+}
+
+#sticky {
+    position: sticky;
+    top:0;
+    width: 75%; /*No es del 100% para que pueda seguir funcionando el desplegable de navegacion entre las distintas paginas*/
+    height: 50px;
+    background: linear-gradient(90deg, rgba(164,73,130,1) 0%, rgba(227,227,227,1) 65%, rgba(38,138,53,1) 100%);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#sticky,#profesor p {
+    font-family: "Manjari", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#profesor p {
+    text-align: center;
+}
+
+.listaOrdenada, p{
+    text-align: justify;
+}
+
+.listaOrdenada {
+    box-sizing: border-box;
+    padding:0 2%;
+    width: 18%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border: 1px groove blueviolet;
+    border-radius: 10px 30px ;
+}
+
+table {
+    width: 80%;
+    margin:auto;
+    margin-bottom: 10%;
+}
+
+tr, th {
+    padding: 1%;
+    width: 1%;
+}
+
+table, tr, th, td {
+    border: 2px inset rgb(212, 13, 40);
+}
+
+th {
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: brown;
+}
+
+td {
+    /* background-color: burlywood; */
+    background-color: rgba(222,184,135,0.6);
+    padding: 1%;
+    text-align: center;
+}
